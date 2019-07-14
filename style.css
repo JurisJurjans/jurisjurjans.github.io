@@ -1,64 +1,90 @@
-body,
-html {
-  width: 100%;
-  height: 100%; 
-}
 
-/*galvenā teksta fonts*/
-body {
-  font-family: 'Montserrat', sans-serif;
+html{
+	height:100%;
+	width: 100%;
 }
-/* hr-Linijas dizains*/
-hr {
-  max-width: 450px;
-  border-width: 3px;
-  border-color: #877C; 
-}
-
-.faded {
-  color: rgba(255, 255, 255, 0.8); 
-}
-
-header.startup {
+body.background{
+		
   background-position: center;
   background-image: url("pakistan.jpg");
   background-size: cover;
   height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.col1{
+
+	background-color: rgba(255, 199, 170,0.5);
+	height:150px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	margin-top:5px;
+}
+.col1:hover{
+
+	background-color: rgba(255, 199, 170,0.7);
+}
+.col2{
+
+	background-color: rgba(212, 142, 106,0.4);
+	height:540px;
+
+	border-radius: 20px;
+
+}
+.col2:hover{
+
+	background-color: rgba(212, 142, 106,0.6);
+
+}
+.col3{
+
+	
+	height:500px;
+	
 }
 
-header.startup hr {
-  margin-top: 100px;
-  margin-bottom: 30px; 
-}
 
-header.startup h1 {
-  font-size: 3rem; 
+.col4{
+	
+	height:275px;
+	
 }
-
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 100px;
-  font-family: 'Montserrat', sans-serif;
-    position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -20%)
+.title{
+	font-family: 'Shadows Into Light', cursive;
+	height: 100%;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 50px;
+	color: #550A00;
 }
-
-.btn-xl {
-  padding: 1rem 2rem; 
+.title:hover{
+	cursor: pointer;
 }
-
-.btn-primary {
-  background-color: #3E31;
-  border-color: #3E31; }
-
-.btn-primary:hover {
-  background-color: #3E3175;
-  border-color: #3E3175;
-  border-width: 5px;
-  cursor: pointer;
+img{
+	height: 220px;
+	width:320px;
+	margin:10px;
+	transition: all 1s;
 }
-  
+.bildes{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+
+}
+img:hover{
+	transform: scale(1.5);
+}
+p{
+	font-size: 95%;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+}
+h4{
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+}
